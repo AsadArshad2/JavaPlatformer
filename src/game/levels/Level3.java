@@ -42,7 +42,7 @@ public class Level3 extends GameLevel{
 
         // create the transformium crystal which the player must steal
         Crystal transformium = getEnd();
-        transformium.setPosition(new Vec2(-8,-22));
+        transformium.setPosition(new Vec2(-8,22));
        // CrystalPickup cpick = new CrystalPickup(player1,transformium,this,game);
         //player1.addCollisionListener(cpick);
 
